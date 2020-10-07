@@ -8,7 +8,6 @@ class Cadastro extends StatelessWidget {
         iconTheme: IconThemeData(
           color: Colors.white,
         ),
-        backgroundColor: Color(0xfffff),
         title: Text(
           "Cadastro",
           style: TextStyle(
