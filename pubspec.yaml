@@ -24,7 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_facebook_login: ^1.1.1
-  firebase_core: ^0.2.5  # add dependency for Firebase Core
+  firebase_core: ^0.4.0  # add dependency for Firebase Core
   firebase_analytics: ^1.0.4  # add dependency for Google Analytics for Firebase
   flutter_webview_plugin: ^0.3.10+1
   firebase_auth: ^0.15.3
