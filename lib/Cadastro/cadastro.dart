@@ -8,7 +8,7 @@ class Cadastro extends StatelessWidget {
         iconTheme: IconThemeData(
           color: Colors.white,
         ),
-        backgroundColor: Color(0xfffff),
+        backgroundColor: Color(0xff6B3231),
         title: Text(
           "Cadastro",
           style: TextStyle(
@@ -29,6 +29,17 @@ class Cadastro extends StatelessWidget {
               ),
               decoration: InputDecoration(
                 labelText: "Email",
+                labelStyle: TextStyle(color: Colors.black38),
+              ),
+            ),
+            SizedBox(height: 20),
+            TextFormField(
+              style: new TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+              ),
+              decoration: InputDecoration(
+                labelText: "Confirme seu e-mail",
                 labelStyle: TextStyle(color: Colors.black38),
               ),
             ),
@@ -61,7 +72,7 @@ class Cadastro extends StatelessWidget {
                 fontSize: 20,
               ),
               decoration: InputDecoration(
-                labelText: "Email",
+                labelText: "CPF",
                 labelStyle: TextStyle(color: Colors.black38),
               ),
             ),
@@ -96,6 +107,78 @@ class Cadastro extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: "Telefone",
                 labelStyle: TextStyle(color: Colors.black38),
+              ),
+            ),
+            SizedBox(height: 20),
+            TextFormField(
+              style: new TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+              ),
+              decoration: InputDecoration(
+                labelText: "Senha",
+                labelStyle: TextStyle(color: Colors.black38),
+              ),
+            ),
+            SizedBox(height: 20),
+            TextFormField(
+              style: new TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+              ),
+              decoration: InputDecoration(
+                labelText: "Confirme sua senha",
+                labelStyle: TextStyle(color: Colors.black38),
+              ),
+            ),
+            SizedBox(
+              height: 40,
+            ),
+            Container(
+              height: 45,
+              alignment: Alignment.centerLeft,
+              decoration: BoxDecoration(
+                color: Color(0xFFDB565D),
+                borderRadius: BorderRadius.all(
+                  Radius.circular(25),
+                ),
+              ),
+              child: SizedBox.expand(
+                child: FlatButton(
+                  child: Text(
+                    "Cadastrar",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 45,
+              alignment: Alignment.centerLeft,
+              decoration: BoxDecoration(
+                color: Colors.grey,
+                borderRadius: BorderRadius.all(
+                  Radius.circular(25),
+                ),
+              ),
+              child: SizedBox.expand(
+                child: FlatButton(
+                  child: Text(
+                    "Cancelar",
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 18,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                ),
               ),
             ),
             SizedBox(height: 20),

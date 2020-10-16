@@ -79,7 +79,7 @@ class _FormEventoState extends State<FormEvento> {
                   labelStyle: TextStyle(color: Colors.black38),
                   focusedBorder: OutlineInputBorder(
                     borderSide:
-                        BorderSide(color: Color(0xFFFC7801), width: 2.0),
+                        BorderSide(color: Color(0xFFC33949), width: 2.0),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.black38, width: 1.0),
@@ -106,7 +106,7 @@ class _FormEventoState extends State<FormEvento> {
                 height: 50,
                 alignment: Alignment.centerLeft,
                 decoration: BoxDecoration(
-                  color: Color(0xFFFC7801),
+                  color: Color(0xFFC33949),
                   borderRadius: BorderRadius.all(
                     Radius.circular(25),
                   ),
@@ -143,7 +143,7 @@ class _FormEventoState extends State<FormEvento> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.add_box),
-        backgroundColor: Color(0xFFFC7801),
+        backgroundColor: Color(0xFFF3C148),
       ),
     );
   }

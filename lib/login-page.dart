@@ -1,9 +1,6 @@
-import 'package:blidroid/Cadastro/cadastro.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_facebook_login/flutter_facebook_login.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 
-import '../Home/home.dart';
+import 'Home/home.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -125,19 +122,11 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
             ),
-            SizedBox(
-              height: 20,
-            ),
             Container(
               height: 50,
               alignment: Alignment.center,
               child: FlatButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Cadastro()),
-                  );
-                },
+                onPressed: null,
                 child: Text(
                   "Cadastre-se",
                   style: TextStyle(

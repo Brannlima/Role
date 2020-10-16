@@ -1,4 +1,4 @@
-import 'package:blidroid/Home/form-evento.dart';
+import 'package:role/Home/form-evento.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
         iconTheme: IconThemeData(
           color: Colors.white,
         ),
-        backgroundColor: Color(0xFFFC7801),
+        backgroundColor: Color(0xFFC33949),
         title: Text(
           "Bem Vindo ao Rolê",
           style: TextStyle(
@@ -268,7 +268,7 @@ class _HomeState extends State<Home> {
           );
         },
         child: Icon(Icons.add_box),
-        backgroundColor: Color(0xFFFC7801),
+        backgroundColor: Color(0xFFF3C148),
       ),
     );
   }

@@ -1,4 +1,4 @@
-name: blidroid
+name: role
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -23,7 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  flutter_facebook_login: ^1.1.1
+  firebase_core: ^0.4.0  # add dependency for Firebase Core
+  firebase_analytics: ^1.0.4  # add dependency for Google Analytics for Firebase
+  flutter_webview_plugin: ^0.3.10+1
+  firebase_auth: ^0.15.3
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -32,7 +36,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  
+  
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -46,8 +51,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   # assets:
-  #   - assets/fb-icon.png
-  
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -74,7 +79,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
-
   assets:
     - assets/fb-icon.png
     - assets/logorole.png

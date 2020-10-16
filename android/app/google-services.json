@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1003620641293",
+    "firebase_url": "https://role-80b7e.firebaseio.com",
+    "project_id": "role-80b7e",
+    "storage_bucket": "role-80b7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003620641293:android:d0838101233921ae70c344",
+        "android_client_info": {
+          "package_name": "com.example.role"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003620641293-4tocjlutqiv1i3605b6j14ptnimlab1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQlK_vnrDrswwEiP9HaVVbyUad4PaCzWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003620641293-4tocjlutqiv1i3605b6j14ptnimlab1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
