@@ -1,5 +1,7 @@
+import 'package:lib/Cadastro/cadastro.dart';
 import 'package:flutter/material.dart';
-import 'package:role/Cadastro/cadastro.dart';
+import 'package:flutter_facebook_login/flutter_facebook_login.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 import '../Home/home.dart';
 
@@ -32,7 +34,7 @@ class _LoginPageState extends State<LoginPage> {
                 fontSize: 20,
               ),
               decoration: InputDecoration(
-                labelText: "E-mail",
+                labelText: "Login",
                 labelStyle: TextStyle(color: Colors.black38),
               ),
             ),
@@ -63,13 +65,13 @@ class _LoginPageState extends State<LoginPage> {
               ),
             ),
             SizedBox(
-              height: 100,
+              height: 20,
             ),
             Container(
-              height: 45,
+              height: 50,
               alignment: Alignment.centerLeft,
               decoration: BoxDecoration(
-                color: Color(0xFFC33949),
+                color: Color(0xFFFC7801),
                 borderRadius: BorderRadius.all(
                   Radius.circular(25),
                 ),
@@ -97,7 +99,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 20,
             ),
             Container(
-              height: 45,
+              height: 50,
               alignment: Alignment.centerLeft,
               decoration: BoxDecoration(
                 color: Color(0xFF3C5A99),
@@ -127,7 +129,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 20,
             ),
             Container(
-              height: 35,
+              height: 50,
               alignment: Alignment.center,
               child: FlatButton(
                 onPressed: () {
@@ -137,7 +139,7 @@ class _LoginPageState extends State<LoginPage> {
                   );
                 },
                 child: Text(
-                  "Não possui conta? Cadastre-se",
+                  "Cadastre-se",
                   style: TextStyle(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,
